@@ -5,7 +5,6 @@ import json
 import os
 from bs4 import BeautifulSoup
 
-
 row = {}
 
 def checkConnection():
@@ -23,6 +22,7 @@ def mkFile():
 
 
 def writeToFile(ip):
+    print("* Checking IP: "+ ip)
     checkVT(ip)
     checkIPvoid(ip)
     checkAbuseIP(ip)
@@ -131,7 +131,7 @@ checkConnection()
 mkFile()
 f = open("IPs.txt", "r")
 for ip in f:
-    #time.sleep(1)
+    time.sleep(1)
     writeToFile(ip.strip())
 f.close()
 print(os.system("result.csv"))
