@@ -3,7 +3,7 @@ Python script to check the reputation of multiple IP addresses using 3 of bigges
 
 # Requirements
 - All you need is python3 installed with the libraries:
-  + BeautiflSoup4
+  + BeautifulSoup4
   + requests
   + json
   + csv
