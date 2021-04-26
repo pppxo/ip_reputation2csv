@@ -10,7 +10,7 @@ Python script to check the reputation of multiple IP addresses using 3 of bigges
   + os
 
 # How to use
-- Put the IP adresses directly in (IPs.txt) file seperated by new line.
+- Put the IP addresses directly in (IPs.txt) file seperated by new line.
 - Use the CMD to run the command:
   > python main.py 
 - A CSV file will be generated and opened with all IP reputation results.
